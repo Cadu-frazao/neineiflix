@@ -46,6 +46,7 @@ header .logo12 img{
     max-width:150px;
    
 }
+
 .login_body {
     padding: 60px;
     z-index: 90;
@@ -372,14 +373,15 @@ header .logo12 img{
     filter: invert(1);
     max-width: 32px;
 }
-
+/* Para Tablet */ 
 @media (max-width: 991px) {
     .movieTitle {
         max-width: 400px;
         position: relative;
     }
+   
     body{
-    background-color: black;
+    background-color: url(../src/img/bg1.jpeg);
    }
     header {
         padding: 20px 50px;
@@ -413,14 +415,15 @@ header .logo12 img{
     }
    
 }
-
+/* PARA CELULAR */ 
 @media (max-width: 600px) {
     .movieTitle {
         max-width: 400px;
         position: relative;
     }
+ 
     body{
-        background-color: black;
+        background-image: url(../src/img/bg1.jpeg);
        }
     header {
         padding: 20px;
