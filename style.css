@@ -27,8 +27,8 @@ div#nei {
     transform: translate(-50%, -50%);
     border-radius: 8px;
     background-color: black;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
  
     transition: transform 0.3s ease;
 }
@@ -58,4 +58,26 @@ div#perfis {
     width: 150px;
     text-align: center;
     margin: 5px black;
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: black;
+    }
+    h1 {
+        top: 100px;
+    }
+    
+    div#nei {
+        top: 30%;
+    }
+    
+    p {
+        top: 50%;
+        transform: translate(-50%, 200%);
+    }
+    
+    div#perfis {
+        top: 50%;
+        transform: translate(-50%, 250%);
+    }
 }

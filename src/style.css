@@ -15,6 +15,7 @@ body {
     background-image: url(../Netamor/.src/img/background.jpg);
     background-image: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 body::before {
@@ -252,9 +253,7 @@ header .logo12 img{
     max-width: 550px;
 }
 
-.movieTitle {
-    max-width: 600px;
-}
+
 
 .banner .content h4 {
     color: rgba(255,255,255,0.5);
@@ -375,9 +374,17 @@ header .logo12 img{
 }
 
 @media (max-width: 991px) {
+    .movieTitle {
+        max-width: 400px;
+        position: relative;
+    }
+    body{
+    background-color: black;
+   }
     header {
         padding: 20px 50px;
         flex-direction: column;
+        position:  relative;
     }
 
     .navigation {
@@ -404,11 +411,20 @@ header .logo12 img{
     .trailer video {
         max-width: 90%;
     }
+   
 }
 
 @media (max-width: 600px) {
+    .movieTitle {
+        max-width: 400px;
+        position: relative;
+    }
+    body{
+        background-color: black;
+       }
     header {
         padding: 20px;
+        position: relative;
     }
 
     .search {
