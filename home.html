@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Neiflix</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo12"><img src="assets/logo12.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Bombando</a></li>
+            <li><a href="#">Minha Lista</a></li>
+            <li><a href="#">Navegar por idiomas</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="assets/bg.jpg" class="bg">
+
+        <div class="content">
+            <img src="assets/name.png" class="movieTitle">
+            <h4>
+                <span>2023</span>
+                <span><i>18</i></span>
+                <span>3min</span>
+                <span>Conto de amor</span>
+            </h4>
+            <p>
+                Neilamy Geane, você é meu amor, minha fonte de felicidade. Sua presença ilumina minha vida, e seu sorriso aquece meu coração. Cada momento ao seu lado é precioso, e nossa conexão é profunda. Te amo incondicionalmente e serei sempre seu.
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Mais Informações</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="assets/play.png">Assitar o Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/video.mp4" controls="true"></video>
+        <img src="assets/close.png" class="close" onclick="toggleVideo()">
+    </div>
+</body>
+    <script src="src/script.js"></script>
+    <script src="https://yagasaki7k.github.io/custom-scripts/font-awesome.js"></script>
+</html>
