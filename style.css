@@ -59,25 +59,3 @@ div#perfis {
     text-align: center;
     margin: 5px black;
 }
-@media screen and (max-width: 768px) {
-    body{
-        background-color: black;
-    }
-    h1 {
-        top: 100px;
-    }
-    
-    div#nei {
-        top: 30%;
-    }
-    
-    p {
-        top: 50%;
-        transform: translate(-50%, 200%);
-    }
-    
-    div#perfis {
-        top: 50%;
-        transform: translate(-50%, 250%);
-    }
-}
