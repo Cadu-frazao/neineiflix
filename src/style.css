@@ -385,7 +385,8 @@ header .logo12 img{
     }   
    
     body{
-    background-color: url(../src/img/bg1.jpeg);
+        background-color: black;
+    background-image: url(../src/img/bg1.jpeg);
    }
     header {
         padding: 20px 50px;
@@ -427,6 +428,7 @@ header .logo12 img{
     }
  
     body{
+        background-color: black;
         background-image: url(../src/img/bg1.jpeg);
        }
     header {
