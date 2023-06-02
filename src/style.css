@@ -429,7 +429,7 @@ header .logo12 img{
  
     body{
         background-color: black;
-        background-image: url(../src/img/bg1.jpeg);
+        background-image: url(../assets/bg1.jpg);
        }
     header {
         padding: 20px;
