@@ -33,10 +33,14 @@ header .logo12 img {
   max-width: 150px;
 }
 .movieTitle {
+  position: relative;
   max-width: 900px;
+  z-index: 2;
 }
 .p {
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
 }
 .support {
   display: flex;
@@ -115,6 +119,15 @@ header .logo12 img {
   color: #fff;
   border-radius: 1px solid #fff;
 }
+.bnn {
+  display: none;
+  width: 506px;
+  height: 366px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
 .banner {
   position: relative;
@@ -128,7 +141,6 @@ header .logo12 img {
 
 .banner .bg {
   position: absolute;
-  object-position: right;
   top: 0;
   left: 0;
   width: 100%;
@@ -145,6 +157,7 @@ header .logo12 img {
 .banner .content h4 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 500;
+  position: relative;
 }
 
 .banner .content h4 span {
@@ -169,16 +182,18 @@ header .logo12 img {
   border-radius: 2px;
 }
 
-.banner .content p {
+.banner .content .p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5em;
   color: #fff;
   margin: 10px 0 20px;
+  position: relative;
 }
 
 .banner .content .buttons {
   position: relative;
+  z-index: 2;
 }
 
 .banner .content .buttons a {
@@ -192,6 +207,7 @@ header .logo12 img {
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .banner .content .buttons a:nth-child(2) {
@@ -265,7 +281,15 @@ header .logo12 img {
     position: relative;
     max-width: 600px;
   }
-
+  .bnn {
+    display: block;
+    width: 506px;
+    height: 366px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
   .banner .content {
     position: relative;
   }
@@ -310,7 +334,15 @@ header .logo12 img {
     max-width: 400px;
     z-index: 1;
   }
-
+  .bnn {
+    display: block;
+    width: 506px;
+    height: 366px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
   body {
     background-color: black;
   }
