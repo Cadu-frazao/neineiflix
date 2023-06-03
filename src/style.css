@@ -35,7 +35,9 @@ header .logo12 img {
 .movieTitle {
   max-width: 900px;
 }
-
+.p {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .support {
   display: flex;
   color: #b3b3b3;
