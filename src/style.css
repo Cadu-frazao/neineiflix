@@ -118,9 +118,8 @@ header .logo12 img {
   padding-right: 50px;
   color: #fff;
   border-radius: 1px solid #fff;
-}
-.bnn {
-  display: none;
+}.bnn {
+    display: none;
   width: 506px;
   height: 366px;
   position: absolute;
@@ -128,6 +127,7 @@ header .logo12 img {
   left: 0;
   z-index: 1;
 }
+
 
 .banner {
   position: relative;
@@ -286,12 +286,12 @@ header .logo12 img {
   }
   .bnn {
     display: block;
-    width: 406px;
-    height: 266px;
-    position: absolute;
+    width: 70%;
+    height: 40%;
     top: 0;
     left: 0;
     z-index: 1;
+    align-self: auto;
   }
   .banner .content {
     position: relative;
@@ -342,9 +342,10 @@ header .logo12 img {
   }
   .bnn {
     display: block;
-    width: 506px;
-    height: 366px;
+    width: 70%;
+    height: 40%;
     position: absolute;
+    margin-top: 0%;
     top: 0;
     left: 0;
     z-index: 1;
@@ -380,6 +381,7 @@ header .logo12 img {
     padding: 220px 20px 100px;
   }
 
+ 
   .banner .play {
     left: 20px;
     font-size: 1em;
