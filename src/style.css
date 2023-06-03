@@ -281,6 +281,9 @@ header .logo12 img {
     position: relative;
     max-width: 600px;
   }
+  .bg {
+    display: none;
+  }
   .bnn {
     display: block;
     width: 506px;
@@ -333,6 +336,9 @@ header .logo12 img {
   .movieTitle {
     max-width: 400px;
     z-index: 1;
+  }
+  .bg {
+    display: none;
   }
   .bnn {
     display: block;
