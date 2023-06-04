@@ -379,23 +379,22 @@ header .logo12 img {
   }
 
   .banner {
-    width: auto;
-    height: auto;
-    padding: 0px;
+    width: 400px;
+    height: 431px;
     position: relative;
-    width: 100%;
+    padding: 10px 10px 250px;
     top: 10px;
-    bottom: 100vh;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
+    margin-top: 10px;
   }
-
+  .banner .content {
+    width: max-content;
+    height: max-content;
+  }
   .banner .play {
     left: 20px;
     font-size: 1em;
-    bottom: 30px;
+    bottom: 150px;
   }
 
   .content {
