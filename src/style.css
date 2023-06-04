@@ -400,5 +400,6 @@ header .logo12 img {
 
   .content {
     position: relative;
+    z-index: 2;
   }
 }
