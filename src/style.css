@@ -380,10 +380,10 @@ header .logo12 img {
   }
 
   .banner {
-    width: 400px;
-    height: 431px;
+    width: 100%;
+    height: auto;
     position: relative;
-    padding: 10px 10px 250px;
+    padding: 10px 10px 250px 5px;
     top: 10px;
     align-items: center;
     margin-top: 10px;
