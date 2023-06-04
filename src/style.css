@@ -376,7 +376,7 @@ header .logo12 img {
   .search {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 40px;
   }
 
   .banner {
